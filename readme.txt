@@ -14,7 +14,7 @@ Files included
 
 * readme.txt - You're reading it
 * config.php - The configuration file. Use this to customise the script
-* BELLmailer.php - The actual script. You will not normally need to edit this file unless 
+* mailer.php - The actual script. You will not normally need to edit this file unless 
 * demo.php - Example template for the script
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -23,12 +23,12 @@ Installation
 
 1. Unzip folder
 2. Edit config.php (See below for variables)
-3. Upload BELLmailer.php and config.php to your directory.
+3. Upload mailer.php and config.php to your directory.
 4. Create a template page (the page that the form will appear on)
 5. Put the following line of code into your template page
 (page must have a .php extension and be in the same directory as the script and config file)
 
- <?php include "BELLmailer.php"; ?>
+ <?php include "mailer.php"; ?>
 
 If you are unsure, see demo.php
 

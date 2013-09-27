@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-<title>BELLonline simple PHP email form</title>
+<title> simple PHP email form</title>
 <style type="text/css">
 <!--
 body,td,th {
@@ -16,12 +16,12 @@ body,td,th {
 <body>
 <h1>Simple PHP email form </h1>
 <p>This is a demo for the simple email form.</p>
-<p><?php include "BELLmailer.php"; ?></p>
-<p>&copy; BELLonline.co.uk 2006 </p>
+<p><?php include "mailer.php"; ?></p>
+<p>&copy; .co.uk 2006 </p>
 <pre>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-BELLonline PHP mailer script v1.5
+ PHP mailer script v1.5
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Copyright 2006 Gavin Bell
 Web: http://www.bellonline.co.uk 
@@ -51,7 +51,7 @@ Files included
 
 * readme.txt - You're reading it
 * config.php - The configuration file. Use this to customise the script
-* BELLmailer.php - The actual script. You will not normally need to edit this file unless 
+* mailer.php - The actual script. You will not normally need to edit this file unless 
 * demo.php - Example template for the script
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -60,12 +60,12 @@ Installation
 
 1. Unzip folder
 2. Edit config.php (See below for variables)
-3. Upload BELLmailer.php and config.php to your directory.
+3. Upload mailer.php and config.php to your directory.
 4. Create a template page (the page that the form will appear on)
 5. Put the following line of code into your template page
 (page must have a .php extension and be in the same directory as the script and config file)
 
- &lt;?php include "BELLmailer.php"; ?&gt;
+ &lt;?php include "mailer.php"; ?&gt;
 
 If you are unsure, see demo.php
 

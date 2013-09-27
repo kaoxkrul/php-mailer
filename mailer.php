@@ -7,10 +7,10 @@ if (!file_exists("config.php"))
 $host = $_SERVER[HTTP_HOST ];
 $path = pathinfo($_SERVER['PHP_SELF']);
 $file_path = $path['dirname'];
-print "<h1>BELLonline PHP mailer script</h1>
+print "<h1> PHP mailer script</h1>
 	<h2>There is a problem with your PHP mailer script installation</h2>
 	<p>The config.php file seems to be missing!</p>
-	<p>For this script to work, you need to upload the config.php file that came with the download of the BELLonline <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\">PHP mailer script</a>.</p>
+	<p>For this script to work, you need to upload the config.php file that came with the download of the  <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\">PHP mailer script</a>.</p>
 	<p>The file must be in the following directory of your website:</p>
 	<p>$host<span style=\"font-weight: bold; font-size: 150%;\">$file_path/</span></p>
 	<p>If you need help installing the script, then feel free to email me at <a href=\"&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;\">&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;</a></p>";
@@ -21,9 +21,9 @@ include "config.php";
 
 if ($sendto_email == "changeme@example.com")
 	{
-print "<h1>BELLonline PHP mailer script</h1>
+print "<h1> PHP mailer script</h1>
 	<h2>Installation nearly complete!</h2>
-	<p>Thank you for downloading the <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\">free PHP mailer script</a> from <a href=\"http://www.bellonline.co.uk\">BELLonline web services</a>. </p>
+	<p>Thank you for downloading the <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\">free PHP mailer script</a> from <a href=\"http://www.bellonline.co.uk\"> web services</a>. </p>
 	<p>To start using the script, open config.php in a text editor and change the <b>&#36;sendto_email</b> variable to your email address.</p>
 	<p>If you did not get a config.php file with this script, then go to the <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\">PHP mailer script page</a> and download the full script.</p>
 	<p>If you need help installing the script, then feel free to email me at <a href=\"&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;\">&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;</a></p>";
@@ -66,7 +66,7 @@ elseif ($security_code != $randomness)
 	}
 if ($showlink != "no")
 	{
-	$link = "<br><span style=\"font-size: 10px;\">Powered by <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\">BELLonline PHP mailer script</a></span>";
+	$link = "<br><span style=\"font-size: 10px;\">Powered by <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\"> PHP mailer script</a></span>";
 	}
 if ($error == "1") 
 	{
@@ -96,7 +96,7 @@ if ($error == "1")
 	$random_code = Random();
 	$mail_message = stripslashes($mail_message);
 
-	print "<form name=\"BELLonline_email\" method=\"post\" style=\"margin: 0;\" action=\"\">
+	print "<form name=\"_email\" method=\"post\" style=\"margin: 0;\" action=\"\">
   <table  border=\"0\" cellspacing=\"2\" cellpadding=\"2\">
     <tr align=\"$title_align\" valign=\"top\">
       <td colspan=\"2\"><span style=\"$title_css\">$lang_title</span></td>
@@ -154,7 +154,7 @@ else
 	$senders_email = preg_replace("/[^a-zA-Z0-9s.@-_]/", "-", $senders_email);
 	$senders_name = preg_replace("/[^a-zA-Z0-9s]/", " ", $senders_name);
 	$headers = "From: $senders_name <$senders_email> \r\n";
-	$headers .= "X-Mailer: BELLonline.co.uk PHP mailer \r\n";
+	$headers .= "X-Mailer: .co.uk PHP mailer \r\n";
 	mail($sendto_email, $mail_subject, $mail_message, $headers);
 	print "  <table  border=\"0\" cellspacing=\"2\" cellpadding=\"2\">
     <tr align=\"$title_align\" valign=\"top\">

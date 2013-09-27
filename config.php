@@ -42,7 +42,7 @@ $title_align = "left"; // Can be left, center or right
 $title_css = "font-weight: bold; font-size: 120%;";
 // Colour of error message
 $error_colour = "red"; // Must use HTML compatible colour
-// You can choose whether to display Powered by BELLonline PHP mailer script at the bottom of the mail form
+// You can choose whether to display Powered by  PHP mailer script at the bottom of the mail form
 // I understand that some peopme might not want to show our link, but we would appreciate it if you could 
 // Possible options are yes or no
 $showlink = "no";
