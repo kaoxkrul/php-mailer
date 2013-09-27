@@ -10,11 +10,10 @@ $file_path = $path['dirname'];
 print "<h1> PHP mailer script</h1>
 	<h2>There is a problem with your PHP mailer script installation</h2>
 	<p>The config.php file seems to be missing!</p>
-	<p>For this script to work, you need to upload the config.php file that came with the download of the  <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\">PHP mailer script</a>.</p>
+	<p>For this script to work, you need to upload the config.php file that came with the download of PHP mailer script</a>.</p>
 	<p>The file must be in the following directory of your website:</p>
 	<p>$host<span style=\"font-weight: bold; font-size: 150%;\">$file_path/</span></p>
-	<p>If you need help installing the script, then feel free to email me at <a href=\"&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;\">&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;</a></p>";
-exit;
+	exit;
 	}
 include "config.php";
 
@@ -23,11 +22,8 @@ if ($sendto_email == "changeme@example.com")
 	{
 print "<h1> PHP mailer script</h1>
 	<h2>Installation nearly complete!</h2>
-	<p>Thank you for downloading the <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\">free PHP mailer script</a> from <a href=\"http://www.bellonline.co.uk\"> web services</a>. </p>
 	<p>To start using the script, open config.php in a text editor and change the <b>&#36;sendto_email</b> variable to your email address.</p>
-	<p>If you did not get a config.php file with this script, then go to the <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\">PHP mailer script page</a> and download the full script.</p>
-	<p>If you need help installing the script, then feel free to email me at <a href=\"&#x6d;&#x61;&#105;&#108;&#116;&#x6f;&#58;&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;\">&#x67;&#x61;&#118;&#x69;&#110;&#64;&#98;&#x65;&#x6c;&#x6c;&#x6f;&#110;&#x6c;&#105;&#110;&#101;&#46;&#x63;&#111;&#46;&#x75;&#x6b;</a></p>";
-exit;
+	exit;
 	} 
 if (empty ($senders_name)) 
 	{
@@ -66,7 +62,7 @@ elseif ($security_code != $randomness)
 	}
 if ($showlink != "no")
 	{
-	$link = "<br><span style=\"font-size: 10px;\">Powered by <a href=\"http://bellonline.co.uk/downloads/php-mailer-script/\" title=\"free PHP mailer script\"> PHP mailer script</a></span>";
+	$link = "";
 	}
 if ($error == "1") 
 	{
