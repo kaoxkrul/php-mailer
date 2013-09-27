@@ -15,7 +15,6 @@ Files included
 * readme.txt - You're reading it
 * config.php - The configuration file. Use this to customise the script
 * mailer.php - The actual script. You will not normally need to edit this file unless 
-* demo.php - Example template for the script
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Installation
